@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "name": "discordts13",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "hypixel-api-reborn": "^8.3.0"
+  },
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "build": "tsc"
+  },
+  "author": "Tangerie",
+  "license": "ISC",
+  "description": ""
+}

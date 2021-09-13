@@ -1,0 +1,7 @@
+# Regeneratable files
+build/
+node_modules/
+
+# Data files / secret keys
+data/*
+.env
